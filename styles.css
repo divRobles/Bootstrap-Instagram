@@ -1,0 +1,105 @@
+*{
+    overflow-x: hidden;
+}
+
+.img-insta{
+    height: 30px;
+}
+
+#home .row{
+    height: 40vh;
+}
+
+.barra-navegacion{
+    height: 80px;
+    background-color: white;
+    overflow: visible;
+}
+
+.dropdown{
+    overflow: visible;
+}
+
+.botonAjustes{
+    overflow: visible;
+}
+
+.botonFoto .btn{
+    box-shadow: none;
+}
+
+.BarraVista {
+    margin-top: 80px;
+    overflow-y: hidden;
+}
+
+.BarraVista li{
+    overflow: hidden;
+}
+.modal-backdrop{
+    display: none;
+}
+
+/* FOTOS GALERÍA */
+
+div[class*="foto-galeria"] {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-galeria-1{
+    background-image: url("https://raw.githubusercontent.com/HQarroum/bootstrap-docs/HEAD/assets/images/bootstrap-logo.png");
+}
+.foto-galeria-2{
+    background-image: url("https://fondosmil.com/fondo/11776.jpg");
+}
+.foto-galeria-3{
+    background-image: url("https://siaguanta.com/wp-content/uploads/2020/05/que-es-wallpaper1.jpg");
+}
+.foto-galeria-4{
+    background-image: url("https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg");
+}
+.foto-galeria-5{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3482&resolucion=1280x720");
+}
+.foto-galeria-6{
+    background-image: url("https://i.blogs.es/d24b49/studio-muti-wallpapers/840_560.jpg");
+}
+.foto-galeria-7{
+    background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+}
+.foto-galeria-8{
+    background-image: url("https://areajugones.sport.es/wp-content/uploads/2020/04/the-last-of-part-2-wallpaper-desktop-1.jpg");
+}
+.foto-galeria-9{
+    background-image: url("https://www.lifewire.com/thmb/Jw2zQuXPK9lcjwQqUxNxzT_9jlw=/1280x720/smart/filters:no_upscale()/vladstudio-library-wallpaper-5919cd763df78cf5fa3d7e27.jpg");
+}
+
+#pills-profile .card{
+    height: 650px;
+}
+
+.card *{
+    overflow: hidden;
+    margin: 0;
+}
+
+.card img{
+    object-fit: cover;
+    height: 70%;
+}
+
+.card i{
+    height: 50px;
+}
+
+.card textarea{
+    height: 50px;
+}
+
+.card .input-group{
+    margin-top: 10px;
+}
+
